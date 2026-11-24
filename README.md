@@ -1,2 +1,12 @@
 # odinProject
-A master directory of Odin Project projects
+I had worked through some of The Odin Project previously. I'd become discouraged
+with Web development due to the state of the influence of LLMs. I have come back
+to it as I did enjoy playing around with Web development and have decided to
+attack these more for fun than for seeking employment primarily.
+
+Thus, all of these projects, especially the earlier ones, have elements that
+aren't taught in the sections as I'm bringing in some prior knowledge.
+
+| Name    | Description           | Reference       |
+| ------- | --------------------- | --------------- |
+| Recipes | 3 simple recipe pages | Recipes Project |
