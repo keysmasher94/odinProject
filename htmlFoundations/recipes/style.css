@@ -1,9 +1,22 @@
+@font-face {
+	font-family: "ShantellSans";
+	src: url("fonts/static/ShantellSans-Regular.ttf");
+}
 body {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	background-color: #f95738;
+	font-size: calc(0.1vw + 1.6em);
+	font-family: "ShantellSans", serif;
+	line-height: 1.4em;
+}
+
+@media (width < 62rem) {
+	body {
+		font-size: calc(0.6vw + 1.5em);
+	}
 }
 
 main, nav, header {
@@ -14,10 +27,42 @@ main, nav, header {
 	width: 70vw;
 	background-color: #0d3b66;
 	color: #faf0ca;
-	padding: 1em;
+	padding: 1.5em;
+}
+
+nav {
+	padding: 0.5em 1.5em;
+}
+
+nav ul {
+	width: 100%;
+	display: flex;
+	flex: auto;
+	flex-direction: row;
+	justify-content: space-around;
+	list-style: none;
+}
+
+nav li {
+	width: 100%;
+	text-align: center;
+}
+
+li {
+	margin-bottom: 0.6em;
 }
 
 a {
 	color: #f4d35e;
 	list-style-type: circle;
+}
+
+img {
+	border-radius: 8px;
+	max-width: 100%;
+	height: auto;
+}
+
+h1 {
+	text-align: center;
 }
