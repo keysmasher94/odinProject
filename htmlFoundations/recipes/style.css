@@ -1,6 +1,6 @@
 @font-face {
 	font-family: "ShantellSans";
-	src: url("fonts/static/ShantellSans-Regular.ttf");
+	src: url("fonts/static/ShantellSans-Regular.woff2") format("woff2");
 }
 body {
 	display: flex;
